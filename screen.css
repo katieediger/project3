@@ -32,7 +32,7 @@ html {
 	line-height: 1;
 }
 ol, ul {
-	list-style-type: disc;
+	list-style-type: none;
 }
 blockquote, q {
 	quotes: none;
@@ -65,11 +65,14 @@ html {
 	font-family: 'Cardo', serif;
 	background-color: white;
 }
-
-figure, p {
-	padding-bottom: 1.22222em;
+body {
+	padding-top: 3.666em; /* 66 / 18 = 3.666 */
+  padding-right: 1.222em; /* 22 / 18 = 1.222 */
+  padding-left: 1.222em;
 }
-
+h1,h2,p {
+  padding-bottom: 1.222em;
+}
 h1 {
   font-size: 2.778em; /* 50.02 px/ 18px = 2.778*/
 	line-height: 1.319em; /* 66px / 50.02px = 1.39em ; 3 gridlines (22px */
@@ -80,11 +83,31 @@ h2 {
 	line-height: 1.0318em; /* 33px / 31.984 = 1.0318em */
 	font-family: 'Montserrat', sans-serif;
 }
-h1,h2,p {
-  padding-bottom: 1.222em;
+figure, p {
+	padding-bottom: 1.22222em;
 }
-body {
-	margin: 0 auto;
+li {
+  padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
+}
+ul {
+  margin-left; 0;
+  padding-left: 1.833em;
+  list-style-type: disc;
+}
+li > ul,
+li > ol {
+  padding-top: 0.611em;
+  padding-left: 1.833em;
+  padding-bottom: 0;
+}
+li li: last-child {
+  padding-bottom: 0;
+}
+i,em,cite {
+  font-style: italic;
+}
+b,strong {
+  font-weight: bold;
 }
 
 /* responsive images */
