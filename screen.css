@@ -88,12 +88,12 @@ li {
   padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
 }
 ul {
-  margin-left; 0;
+  margin-left: 0;
   padding-left: 1.833em;
   padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
   list-style-type: disc;
 }
-li li: last-child {
+li li:last-child {
   padding-bottom: 0.611em;
 }
 i,em,cite {
@@ -141,4 +141,30 @@ img {
     width: 31.9767442%; /* 275 / 860 = 0.659883721 */
     float: left;
   }
+  .flexbox #content {
+    display: flex;
+  }
+  .flexbox #primary,
+  .flexbox #supporting {
+    float: none;
+    margin: 0;
+    width: auto;
+  }
+
+  .cssgrid #content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2.0348837%;
+  }
+  .cssgrid #primary {
+    grid-column: 1 / 2;
+  }
+  .cssgrid #supporting {
+    grid-column:3 / 4
+  }
+  #footer {
+    clear: both;
+    float: none;
+  }
+
 }
