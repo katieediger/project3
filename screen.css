@@ -70,7 +70,7 @@ body {
   padding-right: 1.222em; /* 22 / 18 = 1.222 */
   padding-left: 1.222em;
 }
-h1,h2,p {
+h1,p {
   padding-bottom: 1.222em;
 }
 h1 {
@@ -82,9 +82,7 @@ h2 {
   font-size: 1.777em; /* 31.984 px/ 18px = 1.777*/
 	line-height: 1.0318em; /* 33px / 31.984 = 1.0318em */
 	font-family: 'Montserrat', sans-serif;
-}
-figure, p {
-	padding-bottom: 1.22222em;
+  padding-bottom: 0.611em;
 }
 li {
   padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
@@ -92,16 +90,11 @@ li {
 ul {
   margin-left; 0;
   padding-left: 1.833em;
+  padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
   list-style-type: disc;
 }
-li > ul,
-li > ol {
-  padding-top: 0.611em;
-  padding-left: 1.833em;
-  padding-bottom: 0;
-}
 li li: last-child {
-  padding-bottom: 0;
+  padding-bottom: 0.611em;
 }
 i,em,cite {
   font-style: italic;
@@ -114,4 +107,38 @@ b,strong {
 img {
 	display: block;
 	max-width: 100%;
+}
+
+/* State */
+@media screen and (min-width: 370px) {
+  body {
+    padding-right: 5.9459459%; /* 22 / 370 = 0.059459459 */
+    padding-left: 5.9459459%; /* 22 / 370 = 0.059459459 */
+  }
+}
+@media screen and (min-width: 625px) {
+  html {
+    font-size: 1.25em; /* 20 / 16 = 1.25 */
+  }
+}
+@media screen and (min-width: 920px) {
+  /*
+  920px / whole screen
+  -60px /margins (total)
+  275px / column
+  17.5px / gutter
+  Left-hand column : 275 * 2 + 17.5 = 567.5
+  Right-hand column : 275px, offset by 17
+  */
+  body {
+
+  }
+  #primary {
+    width: 65.9883721%; /*567.5 / 860 = 0.659883721 */
+    float: left;
+  }
+  #supporting {
+    width: 31.9767442%; /* 275 / 860 = 0.659883721 */
+    float: left;
+  }
 }
