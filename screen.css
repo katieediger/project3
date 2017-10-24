@@ -114,6 +114,9 @@ img {
   top: 0;
   left: 0;
   width: 100%;
+	list-style-type: none;
+	font-family: 'Montserrat', sans-serif;
+
 }
 #navigation li {
   width: 33.33333%;
