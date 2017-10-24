@@ -28,11 +28,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-html {
+body {
 	line-height: 1;
 }
 ol, ul {
-	list-style-type: none;
+	list-style: none;
 }
 blockquote, q {
 	quotes: none;
@@ -132,7 +132,7 @@ nav a {
   display: block;
   padding-top: 0.611em;
   padding-bottom: 0.611em;
-  background-color: #f5deb3;
+  background-color: white;
   text-align: center;
   text-decoration: none;
 }
