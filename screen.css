@@ -155,14 +155,12 @@ nav a {
   }
 }
 @media screen and (min-width: 920px) {
-  /*
-  920px / whole screen
+  /* 920px / whole screen
   -60px /margins (total)
   275px / column
   17.5px / gutter
   Left-hand column : 275 * 2 + 17.5 = 567.5
-  Right-hand column : 275px, offset by 17
-  */
+  Right-hand column : 275px, offset by 17 */
   body {
 
   }
@@ -190,10 +188,10 @@ nav a {
     grid-column-gap: 35px;
   }
   .cssgrid #primary {
-    grid-column: 1 / 2;
+    grid-column: 3 / 4;
   }
   .cssgrid #supporting {
-    grid-column:3 / 4
+    grid-column: 1 / 2
   }
   #footer {
     clear: both;
