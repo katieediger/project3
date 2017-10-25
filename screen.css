@@ -165,11 +165,11 @@ nav a {
 
   }
   #primary {
-    width: 65.9883721%; /*567.5 / 860 = 0.659883721 */
-    float: left;
+    width: 31.9767442%; /* 275 / 860 = 0.659883721 */
+    float: right;
   }
   #supporting {
-    width: 31.9767442%; /* 275 / 860 = 0.659883721 */
+    width: 65.9883721%; /*567.5 / 860 = 0.659883721 */
     float: left;
   }
   .flexbox #content {
