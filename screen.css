@@ -63,7 +63,7 @@ html {
 	padding-right: 1.22222em;
 	padding-left: 1.22222em;
 	font-family: 'Cardo', 'Bookman Oldstyle', serif;
-	background-color: #D3D3D3;
+	background-color: #EBEAEA; /* Light Gray */
 }
 body {
 	padding-top: 3.666em; /* 66 / 18 = 3.666 */
@@ -102,7 +102,6 @@ i,em,cite {
 b,strong {
   font-weight: bold;
 }
-
 /* responsive images */
 .img-circle {
     border-radius: 50%;
@@ -110,6 +109,12 @@ b,strong {
 img {
   display: block;
   max-width: 100%;
+}
+/* Links */
+
+a {
+	color: #5B0A0A; /* Maroon */
+	text-decoration: none;
 }
 /* Layout */
 #navigation {
@@ -130,7 +135,7 @@ img {
 }
 .flexbox #header {
 	display: flex;
-	flex-direction: column-reverse;
+	justify-content: space-between;
 }
 .flexbox #navigation {
 	position: static;
@@ -151,8 +156,9 @@ nav a {
   display: block;
   padding-top: 0.611em;
   padding-bottom: 0.611em;
-  background-color: white;
-  text-align: center;
+  background-color: #5B0A0A; /* Maroon */
+  color: white;
+	text-align: center;
   text-decoration: none;
 }
 
