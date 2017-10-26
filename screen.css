@@ -123,7 +123,24 @@ img {
   float: left;
 	list-style-type: none;
 }
+.flexbox body {
+	padding-top: 0
+}
+.flexbox #header {
+	display: flex;
+	flex-direction: column-reverse;
+}
+.flexbox #navigation {
+	position: static;
+}
+.flexbox #navigation ul {
+	display: flex;
+}
+.flexbox #navigation li {
+	float: none;
+}
 /* State */
+/* Modular */
 nav ul {
 	list-style-type: none;
 	padding-left: 0;
@@ -158,9 +175,19 @@ nav a {
   body {
 
   }
+#primary {
+	width: 31.9767442%;
+	margin-left: 2.0348837%;
+	float: right;
+}
+#supporting {
+	width: 65.9883721%;
+	float: right;
+}
+
 @media screen and (min-width: 1185px) {
   body {
     padding-right: 10%;
     padding-left: 10%;
-  }
+	}
 }
