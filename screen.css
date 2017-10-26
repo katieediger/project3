@@ -140,6 +140,10 @@ a {
 .flexbox #navigation {
 	position: static;
 }
+.cssgrid header {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
 .flexbox #navigation ul {
 	display: flex;
 }
