@@ -85,12 +85,13 @@ h2 {
 }
 li {
   padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
+	line-height: 1.22222em; /* 22 / 19 = 1.222... aka 122% */
 }
 ul {
   margin-left: 0;
   padding-left: 1.833em;
   padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
-  list-style-type: disc;
+	line-height: 1.22222em; /* 22 / 19 = 1.222... aka 122% */
 }
 li li:last-child {
   padding-bottom: 0.611em;
