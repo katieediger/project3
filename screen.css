@@ -89,7 +89,7 @@ li {
 }
 ul {
   margin-left: 0;
-  padding-left: 1.833em;
+  padding-left: 0;
   padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
 	line-height: 1.22222em; /* 22 / 19 = 1.222... aka 122% */
 }
