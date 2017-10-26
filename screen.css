@@ -68,10 +68,10 @@ html {
 body {
 	padding-top: 3.666em; /* 66 / 18 = 3.666 */
   padding-right: 1.222em; /* 22 / 18 = 1.222 */
-  padding-left: 1.222em;
+  padding-left: 1.222em; /* 22 / 18 = 1.222 */
 }
-h1,p {
-  padding-bottom: 1.222em;
+h1,h2,h3,p {
+  padding-bottom: 1.222em; /* 22 / 18 = 1.222 */
 }
 h1 {
   font-size: 2.778em; /* 50.02 px/ 18px = 2.778*/
@@ -82,7 +82,6 @@ h2 {
   font-size: 1.777em; /* 31.984 px/ 18px = 1.777*/
 	line-height: 1.0318em; /* 33px / 31.984 = 1.0318em */
 	font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
-  padding-bottom: 0.611em;
 }
 li {
   padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
@@ -125,6 +124,10 @@ img {
 	list-style-type: none;
 }
 /* State */
+nav ul {
+	list-style-type: none;
+	padding-left: 0;
+}
 nav a {
   display: block;
   padding-top: 0.611em;
@@ -132,7 +135,6 @@ nav a {
   background-color: white;
   text-align: center;
   text-decoration: none;
-	width: 100%;
 }
 
 @media screen and (min-width: 370px) {
