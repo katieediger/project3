@@ -62,7 +62,7 @@ html {
 	padding-top: 2.44444em; /* 44/ 18 = 2.44444 */
 	padding-right: 1.22222em;
 	padding-left: 1.22222em;
-	font-family: 'Cardo', serif;
+	font-family: 'Cardo', 'Bookman Oldstyle', serif;
 	background-color: #D3D3D3;
 }
 body {
@@ -81,7 +81,7 @@ h1 {
 h2 {
   font-size: 1.777em; /* 31.984 px/ 18px = 1.777*/
 	line-height: 1.0318em; /* 33px / 31.984 = 1.0318em */
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
   padding-bottom: 0.611em;
 }
 li {
@@ -91,7 +91,7 @@ ul {
   margin-left: 0;
   padding-left: 1.833em;
   padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
-  /* list-style-type: disc; */
+  list-style-type: disc;
 }
 li li:last-child {
   padding-bottom: 0.611em;
@@ -111,7 +111,6 @@ img {
   display: block;
   max-width: 100%;
 }
-
 /* Layout */
 #navigation {
   position: absolute;
@@ -125,14 +124,6 @@ img {
   float: left;
 	list-style-type: none;
 }
-
-.flexbox #navigation ul {
-  display : flex;
-}
-
-flexbox #navigation li {
-  float: none;
-}
 /* State */
 nav a {
   display: block;
@@ -141,6 +132,7 @@ nav a {
   background-color: white;
   text-align: center;
   text-decoration: none;
+	width: 100%;
 }
 
 @media screen and (min-width: 370px) {
@@ -163,39 +155,6 @@ nav a {
   Right-hand column : 275px, offset by 17 */
   body {
 
-  }
-  #primary {
-    width: 31.9767442%; /* 275 / 860 = 0.659883721 */
-    float: right;
-  }
-  #supporting {
-    width: 65.9883721%; /*567.5 / 860 = 0.659883721 */
-    float: left;
-  }
-  .flexbox #content {
-    display: flex;
-  }
-  .flexbox #primary,
-  .flexbox #supporting {
-    float: none;
-    margin: 0;
-    width: auto;
-  }
-  .cssgrid #content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr; /* Establishes 3 columns */
-    grid-column-gap: 2.0348837%;
-    grid-column-gap: 35px;
-  }
-  .cssgrid #primary {
-    grid-column: 3 / 4;
-  }
-  .cssgrid #supporting {
-    grid-column: 1 / 2
-  }
-  #footer {
-    clear: both;
-    float: none;
   }
 @media screen and (min-width: 1185px) {
   body {
