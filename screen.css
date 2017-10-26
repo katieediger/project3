@@ -120,7 +120,7 @@ img {
 	font-family: 'Montserrat', sans-serif;
 }
 #navigation li {
-  width: 33.33333%;
+  width: 33.333333%;
   float: left;
 	list-style-type: none;
 }
@@ -184,7 +184,7 @@ nav a {
 }
 #supporting {
 	width: 65.9883721%;
-	float: right;
+	float: left;
 }
 
 @media screen and (min-width: 1185px) {
