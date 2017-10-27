@@ -104,11 +104,10 @@ b,strong {
   font-weight: bold;
 }
 /* responsive images */
-.img-circle {
-    border-radius: 50%;
-}
+
 img {
-  display: block;
+  border-radius: 50%;
+	display: block;
 	float: left;
   max-width: 100%;
 }
