@@ -109,6 +109,7 @@ img {
   border-radius: 50%;
 	display: block;
 	float: left;
+	margin-right: 1.0318em; /* 33px / 31.984 = 1.0318em */
   max-width: 100%;
 }
 /* Links */
@@ -130,13 +131,8 @@ a {
   float: left;
 	list-style-type: none;
 }
-
 .flexbox body {
 	padding-top: 0
-}
-.flexbox #header {
-	display: flex;
-	justify-content: space-between;
 }
 .flexbox #navigation {
 	position: static;
@@ -151,7 +147,6 @@ a {
 .flexbox #navigation li {
 	float: none;
 }
-/* State */
 /* Modular */
 nav ul {
 	list-style-type: none;
