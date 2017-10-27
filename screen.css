@@ -132,12 +132,6 @@ a {
   float: left;
 	list-style-type: none;
 }
-.flexbox body {
-	padding-top: 0
-}
-.flexbox #navigation {
-	position: static;
-}
 .cssgrid header {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -199,6 +193,12 @@ nav a {
 	float: none;
 }
 
+.flexbox #primary
+.flexbox #supporting {
+	float: none;
+	margin: 0;
+	width: auto;
+}
 @media screen and (min-width: 1185px) {
   body {
     padding-right: 10%;
