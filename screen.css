@@ -75,7 +75,7 @@ h1,h2,h3,p {
 }
 h1 {
   font-size: 2.778em; /* 50.02 px/ 18px = 2.778*/
-	line-height: 1.319em; /* 66px / 50.02px = 1.39em ; 3 gridlines (22px */
+	line-height: 1.0318em; /* 33px / 31.984 = 1.0318em */
 	font-family: 'Montserrat', sans-serif;
 }
 h2 {
@@ -108,6 +108,7 @@ b,strong {
 }
 img {
   display: block;
+	float: left;
   max-width: 100%;
 }
 /* Links */
@@ -195,6 +196,10 @@ nav a {
 #supporting {
 	width: 65.9883721%;
 	float: left;
+}
+#footer {
+	clear: both;
+	float: none;
 }
 
 @media screen and (min-width: 1185px) {
