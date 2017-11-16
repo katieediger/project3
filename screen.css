@@ -70,6 +70,9 @@ body {
 	padding-top: 3.666em; /* 66 / 18 = 3.666 */
   padding-right: 1.222em; /* 22 / 18 = 1.222 */
   padding-left: 1.222em; /* 22 / 18 = 1.222 */
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
 }
 h1,h2,h3,p {
   padding-bottom: 1.222em; /* 22 / 18 = 1.222 */
@@ -112,6 +115,8 @@ img {
   margin: 0 auto;
 	max-width: 100%;
 	padding-bottom: 0.611em;
+  float: left;
+  margin-right: 30px;
 }
 /* Links */
 
@@ -134,7 +139,7 @@ a {
 }
 .cssgrid header {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr, 1fr;
 }
 .flexbox #navigation ul {
 	display: flex;
