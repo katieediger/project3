@@ -124,6 +124,7 @@ img {
 a {
 	color: #5B0A0A; /* Maroon */
 	text-decoration: none;
+	font-weight: bold;
 }
 /* Layout */
 #navigation {
