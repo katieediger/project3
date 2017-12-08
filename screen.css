@@ -64,7 +64,7 @@ html {
 	padding-top: 2.44444em; /* 44/ 18 = 2.44444 */
 	padding-right: 1.22222em;
 	padding-left: 1.22222em;
-	font-family: 'Open Sans', serif;
+	font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
 	background-color: #EBEAEA; /* Light Gray */
 }
 body {
@@ -110,7 +110,6 @@ i,em,cite {
 b,strong {
   font-weight: bold;
 }
-/* Responsive Images */
 img {
   border-radius: 50%;
 	display: block;
@@ -120,7 +119,6 @@ img {
   float: right;
   margin-left: 30px;
 }
-/* Links */
 a {
 	color: #5B0A0A; /* Maroon */
 	text-decoration: none;
@@ -176,12 +174,12 @@ nav a {
   }
 }
 @media screen and (min-width: 920px) {
-  /* 920px / whole screen
+  920px / whole screen
   -60px /margins (total)
   275px / column
   17.5px / gutter
   Left-hand column : 275 * 2 + 17.5 = 567.5
-  Right-hand column : 275px, offset by 17 */
+  Right-hand column : 275px, offset by 17
   body {
 
   }
@@ -212,3 +210,4 @@ nav a {
     padding-left: 10%;
 	}
 }
+/* State */
