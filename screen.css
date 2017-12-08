@@ -53,7 +53,6 @@ table {
 
 /* Base */
 html {
-
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -67,6 +66,7 @@ html {
   font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
   background-color: #EBEAEA; /* Light Gray */
 }
+
 body {
   line-height: 1.22222em; /* 22 / 19 = 1.222... aka 122% */
   padding-top: 1.222em; /*3.666em 66 / 18 = 3.666 */
@@ -80,36 +80,44 @@ body {
 h1,h2,h3,p {
   padding-bottom: 0.611em; /*3.666em 66 / 18 = 3.666 */
 }
+
 h1 {
   font-size: 2.778em; /* 50.02 px/ 18px = 2.778*/
   line-height: 1.0318em; /* 33px / 31.984 = 1.0318em */
   font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
   padding-bottom: 1.222em; /*3.666em 66 / 18 = 3.666 */
 }
+
 h2 {
   font-size: 1.777em; /* 31.984 px/ 18px = 1.777*/
   line-height: 1.0318em; /* 33px / 31.984 = 1.0318em */
   font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
 }
+
 li {
   padding-bottom: 0.611em; /*3.666em 66 / 18 = 3.666 */
   line-height: 1.22222em; /* 22 / 19 = 1.222... aka 122% */
 }
+
 ul {
   margin-left: 0;
   padding-left: 0;
   padding-bottom: 0.611em; /*3.666em 66 / 18 = 3.666 */
   line-height: 1.22222em; /* 22 / 19 = 1.222... aka 122% */
 }
+
 li li:last-child {
   padding-bottom: 0.611em; /*3.666em 66 / 18 = 3.666 */
 }
+
 i,em,cite {
   font-style: italic;
 }
+
 b,strong {
   font-weight: bold;
 }
+
 img {
   border-radius: 50%;
   display: block;
@@ -119,6 +127,7 @@ img {
   float: right;
   margin-left: 30px;
 }
+
 a {
   color: #5B0A0A; /* Maroon */
   text-decoration: none;
@@ -132,6 +141,7 @@ a {
   width: 100%;
   font-family: 'Montserrat', sans-serif;
 }
+
 #navigation li {
   width: 33.333333%;
   float: left;
@@ -141,18 +151,17 @@ a {
 .flexbox #navigation ul {
   display: flex;
 }
+
 .flexbox #navigation li {
   float: none;
 }
-#footer {
-  clear: both;
-  float: none;
-}
+
 /* Modular */
 nav ul {
   list-style-type: none;
   padding-left: 0;
 }
+
 nav a {
   display: block;
   padding-top: 0.611em;
@@ -167,9 +176,11 @@ nav a {
 #navigation a:hover {
   color: #c9aeab; /* pink gray */
 }
+
 a:hover {
   color: #e0412c; /* bright rust */
 }
+
 @media screen and (min-width: 370px) {
   body {
     padding-right: 5.9459459%; /* 22 / 370 = 0.059459459 */
@@ -181,6 +192,20 @@ a:hover {
     font-size: 1.25em; /* 20 / 16 = 1.25 */
   }
 }
+
+@media screen and (min-width: 720px) {
+  body {
+    padding-right: 11.11%;
+    padding left: 11.11%;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  body {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
 @media screen and (min-width: 1185px) {
   body {
     padding-right: 10%;
